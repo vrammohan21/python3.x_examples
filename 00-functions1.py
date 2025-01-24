@@ -19,4 +19,4 @@ first,last=name.strip().capitalize().title().split()
 #adding 'f' in the print statement directs the interpreter to format the statement & treat string included in {} as special.
 #Means, it could be a variable, if so parse that variable and return its value.
 print(f"hello {first} {last}")
-#print(f"hello {third}") -> this is an error because interpreter tries to parse 'third' which is not defined in the code.
+#print(f"hello {third}") -> this is an error because interpreter tries to parse 'third' which is not defined in the code.git 
