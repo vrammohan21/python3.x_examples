@@ -1,4 +1,5 @@
 #Lists & Functions
+#MUTABLE & IMMUTABLE
 users=[1,'name',3.5]
 print('users is of type:',type(users))
 print(users)
