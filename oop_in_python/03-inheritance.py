@@ -4,24 +4,32 @@ class Pet:
         self.name=name
         self.age=age
 
-    def my_details(self):
-        print(f"My name={self.name}& age={self.age}")
+    def pet_details(self):
+        print(f"My Pet name={self.name} & it's age={self.age}")
+
+    def move(self):
+        return "I'm moving"
 
 #Inherit the Pet
 class Cat(Pet):
     def speak(self):
-        print("Meow")
+        return "Meow : I'm speaking"
+    def move(self):
+        return "I'm a cat, I jump onto/from the walls"
 
 #Inherit the Pet
 class Dog(Pet):
     def speak(self):
-        print("I BARK")
+        return "Bowwwww bowh : GOT it...."
+    def move(self):
+        return "I run like anything"
 
 p=Pet("Pet",5)
-p.my_details()
-cat1=Cat("cat1",10)
-cat1.my_details()
-cat1.speak()
+p.pet_details()
+print(p.move())
+cat1=Cat("rosy",10)
+cat1.pet_details()
+print(cat1.speak())
 dog1=Dog("Jimmy ",15)
-dog1.my_details()
-dog1.speak()
+dog1.pet_details()
+print(dog1.move(),dog1.speak())
