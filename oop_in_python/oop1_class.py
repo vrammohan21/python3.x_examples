@@ -15,7 +15,7 @@ class Microwave:
             #self.turned_on=True
             print(f'Microwave ({self.brand})is just turned on')
 
-#method#2
+    #method#2
     def turn_off(self)->None:
         if self.turned_on:
             print(f'Microwave ({self.brand})is just turned off')
