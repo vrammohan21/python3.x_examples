@@ -1,6 +1,6 @@
 #I am the Parent
 class Pet:
-    def __init__(self,name,age):
+    def __init__(self,name,age): #Constructor used for initialization & self is the instance of the class
         self.name=name
         self.age=age
 
@@ -9,6 +9,8 @@ class Pet:
 
     def move(self):
         return "I'm moving"
+    def speak(self):
+        return "I'm speaking"
 
 #Inherit the Pet
 class Cat(Pet):
