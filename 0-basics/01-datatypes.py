@@ -2,7 +2,9 @@ from typing import Final
 
 s='single quote string'
 s1="double quote string"
-s2='''"Triple" quoted string'''
+s2='''"Triple"
+         quoted 
+         string'''
 print(f"Type of '{s}' : ",type(s))
 print(s1)
 print(s2)

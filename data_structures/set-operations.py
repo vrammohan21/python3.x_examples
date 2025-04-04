@@ -13,4 +13,3 @@ print("updated set=",set2)
 #set can also be created with the set() constructor
 #set2=set('ram',18)#this will give an error as we passed 2 arguments.
 #print(set2)
-#
