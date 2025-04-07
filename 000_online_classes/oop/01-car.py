@@ -1,4 +1,6 @@
 class Car():
+   #A class is a unit of code that combines PROPERTIES & BEHAVIOURS
+   # Behaviour = represents a functionality. 
     brand,color,sportz=None,None,None#initial Properties of a car
 
     def __init__(self,b,c,s):#initializer - this method will initialize all properties
