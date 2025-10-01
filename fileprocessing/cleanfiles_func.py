@@ -1,8 +1,8 @@
 #Run this prior to starting the exercise
 from random import randint as rnd
 
-memReg = './resources/members.txt'
-exReg = './resources/inactive.txt'
+memReg = 'resources/members.txt'
+exReg = 'resources/inactive.txt'
 fee =('yes','no')
 
 def genFiles(current,old):

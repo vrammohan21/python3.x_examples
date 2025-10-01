@@ -15,6 +15,7 @@ while True:
         money=float(input("Please enter the amount & put the amt in m/c closet:"))
         bal+=money
         print(f"Deposited {money}& ur current balance={bal}")
+    #please implement options 2,3,4
     else:
         print("Hello")
 
