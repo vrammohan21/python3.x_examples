@@ -1,2 +1,2 @@
 print("python" == "python")
-print(ord('A'))
+print(ord('a'))
