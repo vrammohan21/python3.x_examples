@@ -32,7 +32,7 @@ def get_phone_number_status(phone_number_str):
     except NumberParseException as e:
         print(f"Error parsing number: {e}")
 
-# Example usage with a US mobile number +917730078005
+# Example usage with a US mobile number +17730078005
 user_input=input("Enter a phone number:")
 get_phone_number_status(user_input)
 
